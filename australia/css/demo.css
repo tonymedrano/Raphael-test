@@ -1,0 +1,50 @@
+body {
+    background: #333;
+    color: #fff;
+    font: 300 100.1% "Helvetica Neue", Helvetica, "Arial Unicode MS", Arial, sans-serif;
+}
+#holder {
+    height: 480px;
+    left: 50%;
+    margin: -240px 0 0 -320px;
+    position: absolute;
+    top: 50%;
+    width: 640px;
+}
+#copy {
+    bottom: 0;
+    font: 300 .7em "Helvetica Neue", Helvetica, "Arial Unicode MS", Arial, sans-serif;
+    position: absolute;
+    right: 1em;
+    text-align: right;
+}
+#copy a {
+    color: #fff;
+}
+#canvas {
+                height: 300px;
+                left: 50%;
+                margin: -150px 0 0 -300px;
+                position: absolute;
+                top: 50%;
+                width: 600px;
+            }
+            #paper {
+                height: 300px;
+                left: 0;
+                position: absolute;
+                top: 0;
+                width: 300px;
+            }
+            #nsw, #vic, #wa, #sa, #nt, #qld, #tas {
+                display: none;
+                height: 400px;
+                overflow: auto;
+                position: absolute;
+                right: 0;
+                top: 0;
+                width: 300px;
+            }
+            h2 {
+                text-align: center;
+            }

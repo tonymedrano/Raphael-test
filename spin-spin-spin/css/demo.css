@@ -1,0 +1,87 @@
+body {
+    background: #333;
+    color: #fff;
+    font: 300 100.1% "Helvetica Neue", Helvetica, "Arial Unicode MS", Arial, sans-serif;
+}
+#holder {
+    height: 480px;
+    left: 50%;
+    margin: -240px 0 0 -320px;
+    position: absolute;
+    top: 50%;
+    width: 640px;
+}
+#copy {
+    bottom: 0;
+    font: 300 .7em "Helvetica Neue", Helvetica, "Arial Unicode MS", Arial, sans-serif;
+    position: absolute;
+    right: 1em;
+    text-align: right;
+}
+#copy a {
+    color: #fff;
+}
+html {
+                height: 100%;
+            }
+            body {
+                color: #222;
+                font: 20px/1.4 "Lucida Grande", Lucida, Verdana, Helvetica, sans-serif;
+                height: 100%;
+            }
+            #holder {
+                height: 300px;
+                left: 0;
+                overflow: hidden;
+                position: absolute;
+                top: 0;
+                width: 300px;
+                margin: 0;
+            }
+            #form {
+                height: 300px;
+                left: 50%;
+                margin: -150px 0 0 -300px;
+                overflow: hidden;
+                position: absolute;
+                top: 50%;
+                width: 600px;
+            }
+            form {
+                color: #fff;
+                left: 300px;
+                margin: 0;
+                padding: 0;
+                position: absolute;
+                top: 0;
+                width: 300px;
+            }
+            dt {
+                clear: left;
+                float: left;
+                height: 2em;
+                width: 150px;
+            }
+            dd {
+                float: left;
+                height: 2em;
+                margin: 0;
+                padding: 0;
+            }
+            input {
+                font-size: 1em;
+                width: 4em;
+            }
+            p {
+                font: italic 20px/1.4 "Hoefler Text", Georgia, serif;
+                height: 100%;
+                margin: -3em;
+                width: 750px;
+            }
+            #copy {
+                bottom: auto;
+                color: #fff;
+                font-size: .5em;
+                right: 4em;
+                top: 300px;
+            }
